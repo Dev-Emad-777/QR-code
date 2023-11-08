@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+  background-color: #002233;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid;
+  border-radius: 30px;
+  padding: 30px 50px;
+  background-color: #0066ff;
+}
+
+.card img {
+  width: 250px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.card p {
+  font-size: 2rem;
+  line-height: 80%;
+  transform: rotateX(0) rotateY(-25deg);
+  text-transform: uppercase;
+  width: 300px;
+  text-align: center;
+  color: #b9dfff;
+  color: #fff;
+  font-family: "Abril Fatface";
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228dff,
+    0 0 35px #228dff, 0 0 40px #228dff;
+    padding: 10% 0;
+    line-height: 2rem;
+}
+.q{
+    display: block;
+    color: black;
+}
+
+a{
+    color:gold;
+    text-decoration: none;
+}
